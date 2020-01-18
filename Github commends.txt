@@ -1,12 +1,13 @@
 SET UP GIT:
-git config --global user.name "User Name"
-git config --global user.email (your email)
+git config --global user.name "selvakumar180234"
+git config --global user.email "selva180234@gmail.com"
 
 TRANSFER PROJECT FILES TO YOUR PC
 git clone URL
 
 TRANSFER PROJECT FILES FROM PC TO GITHUB
-git add File Name
-git commit -m "first commit" File Name
+git add File Name        ............... single file
+git add -A               ............... Multiple file
+git commit -m "first commit" testfrompc.txt
 git push -u origin master
 git remote add origin master (url)g
